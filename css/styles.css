@@ -727,41 +727,23 @@ body {
  
 }
 
-.accept input:checked + .checkbox {
+.accept input:checked + label .checkbox {
   background: var(--accent-colour);
   border: 2px solid var(--accent-colour);
 }
 
-
-
-
-.accept label:checked +  .checkebox-icon {
-  background: var(--accent-colour);
-  border: 2px solid var(--accent-colour);
-}
-/*
-.checkbox .checkebox-icon {
-  opacity: 0;
- }
-
-.accept .checkbox:checked + .checkebox-icon {
-  background: var(--accent-colour);
-  border: 2px solid var(--accent-colour);
-  fill: var(--basic-text-or-background);
-}
-*/
 .checkebox-icon {
   width: 11px;
   height: 8px;
   
 }
 .form-policy {
-  display: block;
-
+  display: flex;
+  align-items: center;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-
+  
   color: var(--basic-text-colour);
 }
 
